@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 logo">
+        <img src="img/twitter.png" alt="" />
+        <div class="row" style="width: 150px">
+          <div class="col pilihan">
+            <i class="fa fa-home" style="color: #1da1f2"></i><a href="beranda.html" class="active">Home</a>
+          </div>
+          <div class="col pilihan">
+            <i class="fa fa-envelope"></i>
+            <a href="message.html" class="pilihan2" style="margin-left: -6px">Message</a>
+          </div>
+          <div class="col pilihan">
+            <i class="fa fa-user"></i> <a href="profile.html" class="pilihan2">Profil</a>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary tweet">Tweet</button>
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-md-3">
+              <img src="img/profile-photo.jpg" class="card-img mt-5" alt="..." />
+            </div>
+            <div class="col-md-8 mt-5">
+              <div class="rio">
+                <h6 class="card-title name-user mb-1 d-flex justify-content-center d-flex align-items-center">
+                  Omi Gusty R
+                </h6>
+                <p class="card-text d-flex justify-content-center d-flex align-items-center" style="color: #c2c1c1">
+                  @omigusty.r
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7" style="border-right: 1px solid #e6e3e3">
+        <div class="header">
+          <h5>Home</h5>
+        </div>
+        <div class="card post">
+          <div class="row no-gutters">
+            <div class="col-md-4 figura mt-2 mb-2">
+              <img src="img/profile-photo.jpg" alt="..." class="rounded-circle" />
+            </div>
+            <div class="col-md-8">
+              <div class="input-group flex-nowrap">
+                <input type="text" class="form-control omi mt-2 mb-2" placeholder="What's happening?" />
+              </div>
+              <div class="postingan">
+                <div class="file-postingan">
+                  <a href=""><i class="fa fa-image"></i></a>
+                  <a href=""><i class="fa fa-file"></i></a>
+                  <a href=""><i class="fa fa-smile-o"></i></a>
+                  <a href=""><i class="fa fa-calendar"></i></a>
+                </div>
+                <button type="button" class="btn btn-primary btn-post-tweet">
+                  Tweet
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer mt-4"></div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <form>
+          <div class="form-group trending-search">
+            <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Search Twitter" />
+          </div>
+        </form>
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-action list-group-item-info trends-for-you">
+            <h6>
+              Trends for you
+              <a href="" style="margin-left: 50px"><i class="fa fa-cog"></i></a>
+            </h6>
+          </li>
+          <li class="list-group-item list-group-item-action list-group-item-info">
+            <p>Trending di Indonesia</p>
+            <h6>#cerai</h6>
+            <p>2,278 Tweets</p>
+          </li>
+          <li class="list-group-item list-group-item-action list-group-item-info">
+            <p>Trending di Indonesia</p>
+            <h6>#army</h6>
+            <p>1,927 Tweets</p>
+          </li>
+          <li class="list-group-item list-group-item-action list-group-item-info">
+            <p>Trending di Indonesia</p>
+            <h6>#blackpink</h6>
+            <p>1,667 Tweets</p>
+          </li>
+          <li class="list-group-item list-group-item-action list-group-item-info">
+            <p>Trending di Indonesia</p>
+            <h6>#jennie</h6>
+            <p>1,667 Tweets</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

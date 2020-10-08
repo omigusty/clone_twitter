@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Twitter</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm d-flex align-items-center d-flex justify-content-start">
+                <img src="img/twitter-cover.png" class="cover" alt="">
+                <div class="twitter-text">
+                    <p><i class="fa fa-search"></i>Follow your interests.</p>
+                    <p><i class="fa fa-user"></i>Hear what people are talking about.</p>
+                    <p><i class="fa fa-comment"></i>Join the conversation.</p>
+                </div>
+            </div>
+            <div class="col-sm col-sm d-flex align-items-center d-flex justify-content-center">
+                <div class="text-img">
+                    <img src="img/twitter.png" alt="">
+                    <h4>See what’s happening in the world right now</h4>
+                    <h6>Join Twitter today.</h6>
+                    <button type="button" class="btn btn-primary sign-up" data-toggle="modal"
+                        data-target="#exampleModal">Sign up</button>
+                    <a href="login.html" type="button" class="btn btn-outline-primary btn-sign">Sign in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="img/twitter.png" alt="">
+                    <button type="button" class="btn btn-primary next d-flex align-items-center">Next</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Create your account</h4>
+                    <form>
+                        <div class="form-group">
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Name</label>
+                                <input type="text" class="form-control" autocomplete="off" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" autocomplete="off"
+                                    id="exampleInputPassword1">
+                            </div>
+                            <label for="exampleInputEmail1">Phone</label>
+                            <input type="text" class="form-control" autocomplete="off" id="exampleInputEmail1">
+                            <a href="" style="text-decoration: none; color: #1DA1F2 !important;"
+                                class="form-text text-muted mt-3">use
+                                email instead</a>
+                            <h6>Date of birth</h6>
+                            <p>This will not be shown publicly.Confirm your own age,even this if account
+                                for a bussinesse,a pet,or something else</p>
+                            <div class="form-row">
+                                <select class="custom-select mr-sm-2 col-md-3" id="inlineFormCustomSelect">
+                                    <option selected>Month</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <select class="custom-select mr-sm-2 col-md-3" id="inlineFormCustomSelect">
+                                    <option selected>Date</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <select class="custom-select mr-sm-2 col-md-3" id="inlineFormCustomSelect">
+                                    <option selected>Year</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

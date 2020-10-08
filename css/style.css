@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-img {
+  width: 380px;
+}
+
+.text-img h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.text-img img {
+  width: 41px;
+  margin-bottom: 20px;
+}
+
+.text-img h6 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.sign-up {
+  width: 380px;
+  height: 39px;
+  border-radius: 30px !important;
+  background-color: #1da1f2 !important;
+  font-size: 15px;
+  font-weight: 700 !important;
+  color: #ffffff;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.sign-up:hover {
+  background-color: #1992dd !important;
+  border: none;
+}
+
+.btn-sign {
+  width: 380px;
+  height: 39px;
+  border-radius: 30px !important;
+  font-size: 15px;
+  font-weight: 700 !important;
+  color: #ffffff;
+  padding: 0 15px 0 15px;
+  border: 1px solid #1992dd;
+}
+
+.btn-sign:hover {
+  background-color: #ddf3ff !important;
+  color: #1992dd !important;
+  transition: 0.3s;
+}
+
+.cover {
+  width: 640px;
+  margin-top: -150px;
+  margin-left: -130px;
+  height: 805px;
+}
+
+.twitter-text {
+  margin-left: -430px;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+i {
+  margin-right: 20px;
+}
+
+.modal-content {
+  border-radius: 15px !important;
+  width: 600px !important;
+}
+
+.modal-header img {
+  width: 26px;
+  position: relative;
+  margin-left: 45%;
+}
+
+.next {
+  width: 66px;
+  height: 30px;
+  border-radius: 15px !important;
+  background-color: #1da1f2;
+  font-size: 15px;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+.modal-body h4 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #1da1f2;
+}
+
+.form-group h6 {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.form-group p {
+  font-size: 15px;
+  line-height: 19px;
+  color: #657786;
+  letter-spacing: 0.5px;
+}
+
+.logo img {
+  width: 21px;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.logo {
+  height: 1250px;
+  border-right: 1px solid #e6e3e3;
+}
+
+.pilihan {
+  margin-bottom: 15px;
+}
+
+.active {
+  color: #1da1f2;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.pilihan2 {
+  color: #000000 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  font-size: 16px;
+}
+
+.tweet {
+  border-radius: 30px !important;
+  width: 150px;
+  background-color: #1da1f2 !important;
+  border: none !important;
+  margin-top: 15px;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-img {
+  width: 42px !important;
+  border-radius: 50% !important;
+  height: 42px;
+  margin-top: 17px !important;
+}
+
+.name-user {
+  font-size: 16px;
+  margin-left: 0px;
+}
+
+.header {
+  border-bottom: 1px solid #e6e3e3;
+  margin-left: -15px;
+  height: 40px;
+  width: 665px;
+}
+
+.header h5 {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.post {
+  width: 663px;
+  margin-left: -15px;
+}
+
+.rounded-circle {
+  width: 67px;
+  height: 67px;
+}
+
+.figura {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.omi {
+  border: none !important;
+  margin-left: -50px !important;
+}
+
+.btn-post-tweet {
+  width: 97px;
+  border-radius: 30px !important;
+  background-color: #1da1f2 !important;
+  border: none !important;
+  margin-left: 350px;
+  margin-top: -36px !important;
+}
+
+.card-footer {
+  width: 667px;
+}
+
+.file-postingan {
+  width: 170px;
+  margin-left: 10px;
+}
+
+.postingan {
+  margin-left: -50px !important;
+  height: 36px;
+}
+
+.trending-search {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.form-control-sm {
+  border-radius: 30px !important;
+  background-color: #e6e3e3 !important;
+}
+
+.list-group {
+  border-radius: 8px !important;
+  background-color: #1da1f2 !important;
+}
+
+.trends-for-you {
+  height: 40px;
+}
+
+.list-group-item-info {
+  background-color: #ecf8ff !important;
+}
+
+.trends-for-you h6 {
+  color: #100d42;
+  font-weight: 700 !important;
+  margin-top: -3px;
+}
+
+.list-group-item-info p {
+  font-size: 16px;
+  color: #c0bdbd;
+  margin-bottom: 2px;
+}
+
+.list-group-item-info h6 {
+  font-size: 18px;
+  color: #100d42;
+  margin-bottom: 2px;
+  font-weight: 700;
+}
+
+.header-message {
+  border-bottom: 1px solid #e6e3e3;
+  margin-left: -15px;
+  height: 40px;
+  width: 474px;
+}
+
+.header-message h5 {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.search-message {
+  border-radius: 30px !important;
+  margin-top: 15px;
+  height: 35px !important;
+  background-color: #e6e3e3 !important;
+}
+
+.tagline-message {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 35px;
+  font-size: 24px;
+}
+
+.description {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-weight: 400 !important;
+  margin-top: 10px;
+  color: #c0bdbd;
+}
+
+.btn-conversations {
+  border-radius: 30px !important;
+  background-color: #1da1f2 !important;
+  border: none !important;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.finding-chat h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 50%;
+}
+
+.finding-chat p {
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+  font-weight: 400 !important;
+  margin-top: 10px;
+  color: #c0bdbd;
+}
+
+.btn-find-message {
+  border-radius: 30px !important;
+  background-color: #1da1f2 !important;
+  border: none !important;
+}
+
+.you-might-like h6 {
+  font-size: 16px;
+  text-align: start;
+}
+
+.you-might-like {
+  width: 160px;
+  margin-left: 55px;
+  margin-top: -48px;
+  height: 50px;
+}
+
+.profile-sugestion {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+.gusty {
+  border-radius: 30px !important;
+  width: 75px;
+  margin-left: 95px;
+  margin-top: -85px;
+}
+
+.name-account {
+  height: 60px;
+}
+
+.name-account p {
+  margin-left: 15px;
+  margin-top: -8px;
+  color: #c0bdbd;
+  font-weight: 500;
+}
+
+.jumbotron {
+  margin-left: -15px;
+  width: 664px;
+  height: 160px;
+  background-image: url("/img/background.jpg");
+}
+
+.biodata-profil {
+  margin-left: 2px;
+  margin-top: -80px;
+}
+
+.biodata-profil img {
+  width: 94px;
+  border-radius: 50%;
+}
+
+.biodata-profil h6 {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.biodata-profil p {
+  font-weight: 400;
+  margin-top: -6px;
+  color: #c0bdbd;
+}
+
+span {
+  font-weight: 700;
+  color: #b4b4b4;
+  margin-right: 4px;
+}
+
+.followers {
+  margin-left: -390px;
+}
+
+.settings {
+  border-radius: 30px !important;
+  margin-left: 520px;
+  margin-top: -360px;
+  font-weight: 700 !important;
+}
+
+.navbar-nav,
+.nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.link-active {
+  color: #1da1f2 !important;
+  border-bottom: 3px solid #1da1f2;
+}
+
+.jumlah-tweets h4 {
+  text-align: center;
+  font-weight: 700;
+  color: #100d42;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.jumlah-tweets p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #c0bdbd;
+}
+
+.btn-jmlh-tweets {
+  border-radius: 30px !important;
+  border: none !important;
+  background-color: #1da1f2 !important;
+  font-weight: 600 !important;
+}

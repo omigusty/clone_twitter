@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 logo">
+                <img src="img/twitter.png" alt="" />
+                <div class="row" style="width: 150px">
+                    <div class="col pilihan">
+                        <i class="fa fa-home"></i><a href="beranda.html" class="pilihan2">Home</a>
+                    </div>
+                    <div class="col pilihan" style="color: #1da1f2">
+                        <i class="fa fa-envelope"></i>
+                        <a href="message.html" class="active" style="margin-left: -6px">Message</a>
+                    </div>
+                    <div class=" col pilihan">
+                        <i class="fa fa-user"></i> <a href="profile.html" class="pilihan2">Profil</a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary tweet">Tweet</button>
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="img/profile-photo.jpg" class="card-img mt-5" alt="..." />
+                        </div>
+                        <div class="col-md-8 mt-5">
+                            <div class="rio">
+                                <h6
+                                    class="card-title name-user mb-1 d-flex justify-content-center d-flex align-items-center">
+                                    Omi Gusty R
+                                </h6>
+                                <p class="card-text d-flex justify-content-center d-flex align-items-center"
+                                    style="color: #c2c1c1">
+                                    @omigusty.r
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5" style="border-right: 1px solid #e6e3e3;">
+                <div class="header-message">
+                    <h5>Message</h5>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control search-message" id="inputPassword"
+                            placeholder="search for people and groups">
+                    </div>
+                </form>
+                <h4 class="tagline-message">Send a message,get a message</h4>
+                <p class="description">Direct Message are private conversations between you and other people on
+                    Twitter.Share
+                    Tweets,media,and more!</p>
+                <div class="start d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-conversations">Start a conversations</button>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="finding-chat">
+                    <h4>You don't have a message selected</h4>
+                    <p>Choose one from your existing messages,or start one</p>
+                </div>
+                <div class="btn-finding d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary btn-find-message">New message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
